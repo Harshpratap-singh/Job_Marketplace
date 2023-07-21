@@ -26,7 +26,7 @@ const connect = async () => {
   }
 };
 
-app.use(cors({ origin: "http://localhost:https://job-marketplace-v7wp.vercel.app", credentials: true }));
+app.use(cors({ origin: "https://job-marketplace-v7wp.vercel.app", credentials: true }));
 app.use(express.json());
 app.use(cookieParser());
 
